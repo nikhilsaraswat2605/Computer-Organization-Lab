@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/nikhil/Nikhil/Ass3_Grp_22/CLA_4bit.xst" -ofn "/home/nikhil/Nikhil/Ass3_Grp_22/CLA_4bit.syr" 

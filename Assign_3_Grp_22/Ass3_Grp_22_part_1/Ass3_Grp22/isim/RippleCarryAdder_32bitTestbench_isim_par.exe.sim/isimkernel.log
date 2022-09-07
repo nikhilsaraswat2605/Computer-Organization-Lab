@@ -1,0 +1,28 @@
+Command line:
+   RippleCarryAdder_32bitTestbench_isim_par.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58843
+
+Fri Aug 26 15:39:43 2022
+
+
+ Elaboration Time: 0.25 sec
+
+ Current Memory Usage: 5162.96 Meg
+
+ Total Signals          : 1637
+ Total Nets             : 950
+ Total Signal Drivers   : 913
+ Total Blocks           : 425
+ Total Primitive Blocks : 359
+ Total Processes        : 996
+ Total Traceable Variables  : 1042
+ Total Scalar Nets and Variables : 47567
+
+ Total Simulation Time: 0.28125 sec
+
+ Current Memory Usage: 5162.96 Meg
+
+Fri Aug 26 15:40:05 2022
+

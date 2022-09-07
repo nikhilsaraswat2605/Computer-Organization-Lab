@@ -1,0 +1,2 @@
+verilog work "netgen/par/diff_two_nums_timesim.v"
+verilog work "diff_two_nums_TestBench.v"

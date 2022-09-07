@@ -1,0 +1,29 @@
+Command line:
+   CLA_16bit_rippleTestbench_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  42179
+
+Tue Aug 30 18:08:55 2022
+
+
+ Elaboration Time: 0.01 sec
+
+ Current Memory Usage: 184.132 Meg
+
+ Total Signals          : 53
+ Total Nets             : 114
+ Total Signal Drivers   : 40
+ Total Blocks           : 7
+ Total Primitive Blocks : 5
+ Total Processes        : 42
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 227
+Total Line Count : 55
+
+ Total Simulation Time: 0.02 sec
+
+ Current Memory Usage: 259.633 Meg
+
+Tue Aug 30 18:09:00 2022
+

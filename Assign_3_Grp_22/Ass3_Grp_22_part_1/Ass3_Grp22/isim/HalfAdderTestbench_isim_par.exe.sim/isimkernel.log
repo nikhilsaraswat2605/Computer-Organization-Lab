@@ -1,0 +1,28 @@
+Command line:
+   HalfAdderTestbench_isim_par.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  59310
+
+Fri Aug 26 15:48:30 2022
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 5154.47 Meg
+
+ Total Signals          : 84
+ Total Nets             : 54
+ Total Signal Drivers   : 48
+ Total Blocks           : 21
+ Total Primitive Blocks : 16
+ Total Processes        : 53
+ Total Traceable Variables  : 64
+ Total Scalar Nets and Variables : 2075
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 5469.04 Meg
+
+Fri Aug 26 15:49:01 2022
+

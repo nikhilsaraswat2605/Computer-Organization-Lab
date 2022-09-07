@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/nikhil/Nikhil/Ass3_Grp_22/CLA_4bit_augmentedTestbench_isim_beh.exe" -prj "/home/nikhil/Nikhil/Ass3_Grp_22/CLA_4bit_augmentedTestbench_beh.prj" "work.CLA_4bit_augmentedTestbench" "work.glbl" 

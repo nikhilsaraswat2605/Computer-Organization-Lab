@@ -1,0 +1,8 @@
+verilog work "HalfAdder.v"
+verilog work "FullAdder.v"
+verilog work "RippleCarryAdder_8bit.v"
+verilog work "RippleCarryAdder_16bit.v"
+verilog work "RippleCarryAdder_32bit.v"
+verilog work "RippleCarryAdder_64bit.v"
+verilog work "diff_two_num.v"
+verilog work "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

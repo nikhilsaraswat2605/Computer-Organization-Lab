@@ -1,0 +1,409 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.02 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.02 secs
+ 
+--> 
+Reading design: wrapper.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "wrapper.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "wrapper"
+Output Format                      : NGC
+Target Device                      : xc7a100t-1-csg324
+
+---- Source Options
+Top Module Name                    : wrapper
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "/home/nikhil/Downloads/Ass3_Grp_22_part_2/Ass3_Grp_22/LookaheadCarryUnit.v" into library work
+Parsing module <LookaheadCarryUnit>.
+Analyzing Verilog file "/home/nikhil/Downloads/Ass3_Grp_22_part_2/Ass3_Grp_22/CLA_4bit_augmented.v" into library work
+Parsing module <CLA_4bit_augmented>.
+Analyzing Verilog file "/home/nikhil/Downloads/Ass3_Grp_22_part_2/Ass3_Grp_22/CLA_16bit_withLCU.v" into library work
+Parsing module <CLA_16bit_withLCU>.
+Analyzing Verilog file "/home/nikhil/Downloads/Ass3_Grp_22_part_2/Ass3_Grp_22/wrapper.v" into library work
+Parsing module <wrapper>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+WARNING:HDLCompiler:1016 - "/home/nikhil/Downloads/Ass3_Grp_22_part_2/Ass3_Grp_22/wrapper.v" Line 23: Port p is not connected to this instance
+
+Elaborating module <wrapper>.
+
+Elaborating module <CLA_16bit_withLCU>.
+
+Elaborating module <CLA_4bit_augmented>.
+
+Elaborating module <LookaheadCarryUnit>.
+WARNING:HDLCompiler:1127 - "/home/nikhil/Downloads/Ass3_Grp_22_part_2/Ass3_Grp_22/wrapper.v" Line 23: Assignment to c_out_net ignored, since the identifier is never used
+WARNING:HDLCompiler:634 - "/home/nikhil/Downloads/Ass3_Grp_22_part_2/Ass3_Grp_22/wrapper.v" Line 5: Net <c_in_reg> does not have a driver.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <wrapper>.
+    Related source file is "/home/nikhil/Downloads/Ass3_Grp_22_part_2/Ass3_Grp_22/wrapper.v".
+WARNING:Xst:647 - Input <c_in> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+INFO:Xst:3210 - "/home/nikhil/Downloads/Ass3_Grp_22_part_2/Ass3_Grp_22/wrapper.v" line 23: Output port <c_out> of the instance <add> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/nikhil/Downloads/Ass3_Grp_22_part_2/Ass3_Grp_22/wrapper.v" line 23: Output port <p> of the instance <add> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/nikhil/Downloads/Ass3_Grp_22_part_2/Ass3_Grp_22/wrapper.v" line 23: Output port <g> of the instance <add> is unconnected or connected to loadless signal.
+WARNING:Xst:653 - Signal <c_in_reg> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Found 16-bit register for signal <in2_reg>.
+    Found 16-bit register for signal <sum>.
+    Found 16-bit register for signal <in1_reg>.
+    Summary:
+	inferred  48 D-type flip-flop(s).
+Unit <wrapper> synthesized.
+
+Synthesizing Unit <CLA_16bit_withLCU>.
+    Related source file is "/home/nikhil/Downloads/Ass3_Grp_22_part_2/Ass3_Grp_22/CLA_16bit_withLCU.v".
+    Summary:
+	no macro.
+Unit <CLA_16bit_withLCU> synthesized.
+
+Synthesizing Unit <CLA_4bit_augmented>.
+    Related source file is "/home/nikhil/Downloads/Ass3_Grp_22_part_2/Ass3_Grp_22/CLA_4bit_augmented.v".
+    Summary:
+Unit <CLA_4bit_augmented> synthesized.
+
+Synthesizing Unit <LookaheadCarryUnit>.
+    Related source file is "/home/nikhil/Downloads/Ass3_Grp_22_part_2/Ass3_Grp_22/LookaheadCarryUnit.v".
+    Summary:
+	no macro.
+Unit <LookaheadCarryUnit> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 3
+ 16-bit register                                       : 3
+# Xors                                                 : 8
+ 4-bit xor2                                            : 8
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 48
+ Flip-Flops                                            : 48
+# Xors                                                 : 8
+ 4-bit xor2                                            : 8
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <wrapper> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block wrapper, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 48
+ Flip-Flops                                            : 48
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : wrapper.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 48
+#      INV                         : 1
+#      LUT2                        : 7
+#      LUT3                        : 4
+#      LUT4                        : 9
+#      LUT5                        : 6
+#      LUT6                        : 21
+# FlipFlops/Latches                : 48
+#      FDE                         : 16
+#      FDR                         : 32
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 49
+#      IBUF                        : 33
+#      OBUF                        : 16
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a100tcsg324-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              48  out of  126800     0%  
+ Number of Slice LUTs:                   48  out of  63400     0%  
+    Number used as Logic:                48  out of  63400     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     80
+   Number with an unused Flip Flop:      32  out of     80    40%  
+   Number with an unused LUT:            32  out of     80    40%  
+   Number of fully used LUT-FF pairs:    16  out of     80    20%  
+   Number of unique control sets:         2
+
+IO Utilization: 
+ Number of IOs:                          52
+ Number of bonded IOBs:                  50  out of    210    23%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 48    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 3.243ns (Maximum Frequency: 308.356MHz)
+   Minimum input arrival time before clock: 1.335ns
+   Maximum output required time after clock: 0.877ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 3.243ns (frequency: 308.356MHz)
+  Total number of paths / destination ports: 424 / 16
+-------------------------------------------------------------------------
+Delay:               3.243ns (Levels of Logic = 3)
+  Source:            in1_reg_15 (FF)
+  Destination:       sum_15 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: in1_reg_15 to sum_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.478   0.925  in1_reg_15 (in1_reg_15)
+     LUT5:I0->O            2   0.124   0.722  add/cla4/carry<2><1>1_SW0 (N4)
+     LUT6:I3->O            1   0.124   0.716  add/lcu/carry<3><2>_SW4 (N28)
+     LUT6:I3->O            1   0.124   0.000  add/cla4/Mxor_sum_3_xo<0>1 (sum_net<15>)
+     FDE:D                     0.030          sum_15
+    ----------------------------------------
+    Total                      3.243ns (0.880ns logic, 2.363ns route)
+                                       (27.1% logic, 72.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 80 / 80
+-------------------------------------------------------------------------
+Offset:              1.335ns (Levels of Logic = 2)
+  Source:            rst (PAD)
+  Destination:       sum_0 (FF)
+  Destination Clock: clk rising
+
+  Data Path: rst to sum_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            33   0.001   0.552  rst_IBUF (rst_IBUF)
+     INV:I->O             16   0.146   0.497  rst_inv1_INV_0 (rst_inv)
+     FDE:CE                    0.139          sum_0
+    ----------------------------------------
+    Total                      1.335ns (0.286ns logic, 1.049ns route)
+                                       (21.4% logic, 78.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Offset:              0.877ns (Levels of Logic = 1)
+  Source:            sum_15 (FF)
+  Destination:       sum<15> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: sum_15 to sum<15>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              1   0.478   0.399  sum_15 (sum_15)
+     OBUF:I->O                 0.000          sum_15_OBUF (sum<15>)
+    ----------------------------------------
+    Total                      0.877ns (0.478ns logic, 0.399ns route)
+                                       (54.5% logic, 45.5% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    3.243|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.79 secs
+ 
+--> 
+
+
+Total memory usage is 493580 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    5 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+

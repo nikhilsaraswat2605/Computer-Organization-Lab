@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/nikhil/Nikhil/Ass3_Grp22/FullAdder.xst" -ofn "/home/nikhil/Nikhil/Ass3_Grp22/FullAdder.syr" 
+xst -intstyle ise -ifn "/home/nikhil/Nikhil/Ass3_Grp22/FullAdder.xst" -ofn "/home/nikhil/Nikhil/Ass3_Grp22/FullAdder.syr" 

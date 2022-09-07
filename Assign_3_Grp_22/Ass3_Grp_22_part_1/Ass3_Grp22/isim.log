@@ -1,0 +1,15 @@
+ISim log file
+Running: C:\Users\Student\Downloads\Assgn_3_Grp_22\Assgn_3_Grp_22\Ass3_Grp22\Ass3_Grp22\diff_two_nums_TestBench_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Student/Downloads/Assgn_3_Grp_22/Assgn_3_Grp_22/Ass3_Grp22/Ass3_Grp22/diff_two_nums_TestBench_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING:  For instance uut/rca64/, width 1 of formal port c_in is not equal to width 64 of actual constant.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+in1 =       98345672198765, in2 =       12765438912345, sum =       85580233286420
+in1 =       12345432198765, in2 =       98765678912345, sum = 18446657653462838036
+in1 = 18446744073709000005, in2 =                55161, sum = 18446744073708944844
+in1 = 18446744073709000006, in2 =               551610, sum = 18446744073708448396

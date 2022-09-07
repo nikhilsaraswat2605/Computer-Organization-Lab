@@ -1,0 +1,28 @@
+Command line:
+   diff_two_nums_TestBench_isim_par.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  56548
+
+Fri Aug 26 15:53:14 2022
+
+
+ Elaboration Time: 0.3125 sec
+
+ Current Memory Usage: 5179.68 Meg
+
+ Total Signals          : 3227
+ Total Nets             : 1871
+ Total Signal Drivers   : 1802
+ Total Blocks           : 840
+ Total Primitive Blocks : 709
+ Total Processes        : 1964
+ Total Traceable Variables  : 2047
+ Total Scalar Nets and Variables : 92214
+
+ Total Simulation Time: 0.328125 sec
+
+ Current Memory Usage: 4707.82 Meg
+
+Fri Aug 26 15:56:09 2022
+

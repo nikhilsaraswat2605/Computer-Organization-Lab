@@ -1,0 +1,8 @@
+verilog isim_temp "HalfAdder.v"
+verilog isim_temp "FullAdder.v"
+verilog isim_temp "RippleCarryAdder_4bit.v"
+verilog isim_temp "RippleCarryAdder_8bit.v"
+verilog isim_temp "RippleCarryAdder_16bit.v"
+verilog isim_temp "RippleCarryAdder_32bit.v"
+verilog isim_temp "RippleCarryAdder_32bitTestbench.v"
+verilog isim_temp "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"
