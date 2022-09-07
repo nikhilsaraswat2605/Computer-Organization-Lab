@@ -1,1 +1,1 @@
-# Computer-Organization-Lab
+# Computer Organization Lab
