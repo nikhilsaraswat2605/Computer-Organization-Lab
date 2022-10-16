@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Student\Downloads\Assign_2_Verilog\Assign_2_Verilog\Verilog_Assignment_2_Structural\Structural_4_bit_counter\Struct_4_bit_counter.ncd
+OUTFILE=C:\Users\Student\Downloads\Assign_2_Verilog\Assign_2_Verilog\Verilog_Assignment_2_Structural\Structural_4_bit_counter\Struct_4_bit_counter.bit
+FAMILY=Spartan3
+PART=xc3s400-4pq208
+WORKINGDIR=C:\Users\Student\Downloads\Assign_2_Verilog\Assign_2_Verilog\Verilog_Assignment_2_Structural\Structural_4_bit_counter
+LICENSE=WebPack
+USER_INFO=__0_0_0

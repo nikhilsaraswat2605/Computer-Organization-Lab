@@ -1,0 +1,69 @@
+xst -intstyle ise -ifn "/home/nikhil/Nikhil/Assign_2_Verilog/Verilog_Assignment_2/Behavioural_4_bit_counter.xst" -ofn "/home/nikhil/Nikhil/Assign_2_Verilog/Verilog_Assignment_2/Behavioural_4_bit_counter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-1 Behavioural_4_bit_counter.ngc Behavioural_4_bit_counter.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Behavioural_4_bit_counter_map.ncd Behavioural_4_bit_counter.ngd Behavioural_4_bit_counter.pcf 
+par -w -intstyle ise -ol high -mt off Behavioural_4_bit_counter_map.ncd Behavioural_4_bit_counter.ncd Behavioural_4_bit_counter.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Behavioural_4_bit_counter.twx Behavioural_4_bit_counter.ncd -o Behavioural_4_bit_counter.twr Behavioural_4_bit_counter.pcf 
+xst -intstyle ise -ifn "/home/nikhil/Nikhil/Assign_2_Verilog/Verilog_Assignment_2/Behavioural_4_bit_counter.xst" -ofn "/home/nikhil/Nikhil/Assign_2_Verilog/Verilog_Assignment_2/Behavioural_4_bit_counter.syr" 
+xst -intstyle ise -ifn "/home/nikhil/Nikhil/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.xst" -ofn "/home/nikhil/Nikhil/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.syr" 
+xst -intstyle ise -ifn "/home/nikhil/Nikhil/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.xst" -ofn "/home/nikhil/Nikhil/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.syr" 
+xst -intstyle ise -ifn "/home/nikhil/Nikhil/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.xst" -ofn "/home/nikhil/Nikhil/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.syr" 
+xst -intstyle ise -ifn "/home/nikhil/Nikhil/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.xst" -ofn "/home/nikhil/Nikhil/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.syr" 
+xst -intstyle ise -ifn "/home/nikhil/Nikhil/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.xst" -ofn "/home/nikhil/Nikhil/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.syr" 
+xst -intstyle ise -ifn "/home/nikhil/Nikhil/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.xst" -ofn "/home/nikhil/Nikhil/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.syr" 
+xst -intstyle ise -ifn "/home/nikhil/Nikhil/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.xst" -ofn "/home/nikhil/Nikhil/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.syr" 
+xst -intstyle ise -ifn "/home/nikhil/Nikhil/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.xst" -ofn "/home/nikhil/Nikhil/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.syr" 
+xst -intstyle ise -ifn "/home/nikhil/Nikhil/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.xst" -ofn "/home/nikhil/Nikhil/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.syr" 
+xst -intstyle ise -ifn "/home/nikhil/Nikhil/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.xst" -ofn "/home/nikhil/Nikhil/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.syr" 
+xst -intstyle ise -ifn "/home/nikhil/Nikhil/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.xst" -ofn "/home/nikhil/Nikhil/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.syr" 
+xst -intstyle ise -ifn "/home/nikhil/Nikhil/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.xst" -ofn "/home/nikhil/Nikhil/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.syr" 
+xst -intstyle ise -ifn "/home/nikhil/Nikhil/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.xst" -ofn "/home/nikhil/Nikhil/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.syr" 
+xst -intstyle ise -ifn "C:/Users/Student/Downloads/Assign_2_Verilog/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.xst" -ofn "C:/Users/Student/Downloads/Assign_2_Verilog/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.syr" 
+xst -intstyle ise -ifn "C:/Users/Student/Downloads/Assign_2_Verilog/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.xst" -ofn "C:/Users/Student/Downloads/Assign_2_Verilog/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc behavioural_fpga.ucf -p xc7a100t-csg324-1 Behavioural_4_bit_counter.ngc Behavioural_4_bit_counter.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Behavioural_4_bit_counter_map.ncd Behavioural_4_bit_counter.ngd Behavioural_4_bit_counter.pcf 
+xst -intstyle ise -ifn "C:/Users/Student/Downloads/Assign_2_Verilog/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.xst" -ofn "C:/Users/Student/Downloads/Assign_2_Verilog/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc behavioural_fpga.ucf -p xc7a100t-csg324-1 Behavioural_4_bit_counter.ngc Behavioural_4_bit_counter.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Behavioural_4_bit_counter_map.ncd Behavioural_4_bit_counter.ngd Behavioural_4_bit_counter.pcf 
+xst -intstyle ise -ifn "C:/Users/Student/Downloads/Assign_2_Verilog/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.xst" -ofn "C:/Users/Student/Downloads/Assign_2_Verilog/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.syr" 
+xst -intstyle ise -ifn "C:/Users/Student/Downloads/Assign_2_Verilog/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.xst" -ofn "C:/Users/Student/Downloads/Assign_2_Verilog/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.syr" 
+xst -intstyle ise -ifn "C:/Users/Student/Downloads/Assign_2_Verilog/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.xst" -ofn "C:/Users/Student/Downloads/Assign_2_Verilog/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc behavioural_fpga.ucf -p xc3s50-vq100-4 Behavioural_4_bit_counter.ngc Behavioural_4_bit_counter.ngd  
+map -intstyle ise -p xc3s50-vq100-4 -cm area -ir off -pr off -c 100 -o Behavioural_4_bit_counter_map.ncd Behavioural_4_bit_counter.ngd Behavioural_4_bit_counter.pcf 
+xst -intstyle ise -ifn "C:/Users/Student/Downloads/Assign_2_Verilog/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.xst" -ofn "C:/Users/Student/Downloads/Assign_2_Verilog/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.syr" 
+xst -intstyle ise -ifn "C:/Users/Student/Downloads/Assign_2_Verilog/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.xst" -ofn "C:/Users/Student/Downloads/Assign_2_Verilog/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc behavioural_fpga.ucf -p xc3s100e-vq100-4 Behavioural_4_bit_counter.ngc Behavioural_4_bit_counter.ngd  
+map -intstyle ise -p xc3s100e-vq100-4 -cm area -ir off -pr off -c 100 -o Behavioural_4_bit_counter_map.ncd Behavioural_4_bit_counter.ngd Behavioural_4_bit_counter.pcf 
+map -intstyle ise -p xc3s100e-vq100-4 -cm area -ir off -pr off -c 100 -o Behavioural_4_bit_counter_map.ncd Behavioural_4_bit_counter.ngd Behavioural_4_bit_counter.pcf 
+xst -intstyle ise -ifn "C:/Users/Student/Downloads/Assign_2_Verilog/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.xst" -ofn "C:/Users/Student/Downloads/Assign_2_Verilog/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc behavioural_fpga.ucf -p xc3s50-vq100-4 Behavioural_4_bit_counter.ngc Behavioural_4_bit_counter.ngd  
+map -intstyle ise -p xc3s50-vq100-4 -cm area -ir off -pr off -c 100 -o Behavioural_4_bit_counter_map.ncd Behavioural_4_bit_counter.ngd Behavioural_4_bit_counter.pcf 
+xst -intstyle ise -ifn "C:/Users/Student/Downloads/Assign_2_Verilog/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.xst" -ofn "C:/Users/Student/Downloads/Assign_2_Verilog/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc behavioural_fpga.ucf -p xc3s400-pq208-4 Behavioural_4_bit_counter.ngc Behavioural_4_bit_counter.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o Behavioural_4_bit_counter_map.ncd Behavioural_4_bit_counter.ngd Behavioural_4_bit_counter.pcf 
+par -w -intstyle ise -ol high -t 1 Behavioural_4_bit_counter_map.ncd Behavioural_4_bit_counter.ncd Behavioural_4_bit_counter.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Behavioural_4_bit_counter.twx Behavioural_4_bit_counter.ncd -o Behavioural_4_bit_counter.twr Behavioural_4_bit_counter.pcf -ucf behavioural_fpga.ucf 
+bitgen -intstyle ise -f Behavioural_4_bit_counter.ut Behavioural_4_bit_counter.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Downloads/Assign_2_Verilog/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.xst" -ofn "C:/Users/Student/Downloads/Assign_2_Verilog/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc behavioural_fpga.ucf -p xc3s400-pq208-4 Behavioural_4_bit_counter.ngc Behavioural_4_bit_counter.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o Behavioural_4_bit_counter_map.ncd Behavioural_4_bit_counter.ngd Behavioural_4_bit_counter.pcf 
+par -w -intstyle ise -ol high -t 1 Behavioural_4_bit_counter_map.ncd Behavioural_4_bit_counter.ncd Behavioural_4_bit_counter.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Behavioural_4_bit_counter.twx Behavioural_4_bit_counter.ncd -o Behavioural_4_bit_counter.twr Behavioural_4_bit_counter.pcf -ucf behavioural_fpga.ucf 
+xst -intstyle ise -ifn "C:/Users/Student/Downloads/Assign_2_Verilog/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.xst" -ofn "C:/Users/Student/Downloads/Assign_2_Verilog/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc behavioural_fpga.ucf -p xc3s400-pq208-4 Behavioural_4_bit_counter.ngc Behavioural_4_bit_counter.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o Behavioural_4_bit_counter_map.ncd Behavioural_4_bit_counter.ngd Behavioural_4_bit_counter.pcf 
+par -w -intstyle ise -ol high -t 1 Behavioural_4_bit_counter_map.ncd Behavioural_4_bit_counter.ncd Behavioural_4_bit_counter.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Behavioural_4_bit_counter.twx Behavioural_4_bit_counter.ncd -o Behavioural_4_bit_counter.twr Behavioural_4_bit_counter.pcf -ucf behavioural_fpga.ucf 
+bitgen -intstyle ise -f Behavioural_4_bit_counter.ut Behavioural_4_bit_counter.ncd 
+bitgen -intstyle ise -f Behavioural_4_bit_counter.ut Behavioural_4_bit_counter.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Downloads/Assign_2_Verilog/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.xst" -ofn "C:/Users/Student/Downloads/Assign_2_Verilog/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc behavioural_fpga.ucf -p xc3s400-pq208-4 Behavioural_4_bit_counter.ngc Behavioural_4_bit_counter.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o Behavioural_4_bit_counter_map.ncd Behavioural_4_bit_counter.ngd Behavioural_4_bit_counter.pcf 
+par -w -intstyle ise -ol high -t 1 Behavioural_4_bit_counter_map.ncd Behavioural_4_bit_counter.ncd Behavioural_4_bit_counter.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Behavioural_4_bit_counter.twx Behavioural_4_bit_counter.ncd -o Behavioural_4_bit_counter.twr Behavioural_4_bit_counter.pcf -ucf behavioural_fpga.ucf 
+bitgen -intstyle ise -f Behavioural_4_bit_counter.ut Behavioural_4_bit_counter.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Downloads/Assign_2_Verilog/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.xst" -ofn "C:/Users/Student/Downloads/Assign_2_Verilog/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_4_bit_counter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc behavioural_fpga.ucf -p xc3s400-pq208-4 Behavioural_4_bit_counter.ngc Behavioural_4_bit_counter.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o Behavioural_4_bit_counter_map.ncd Behavioural_4_bit_counter.ngd Behavioural_4_bit_counter.pcf 
+par -w -intstyle ise -ol high -t 1 Behavioural_4_bit_counter_map.ncd Behavioural_4_bit_counter.ncd Behavioural_4_bit_counter.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Behavioural_4_bit_counter.twx Behavioural_4_bit_counter.ncd -o Behavioural_4_bit_counter.twr Behavioural_4_bit_counter.pcf -ucf behavioural_fpga.ucf 
+bitgen -intstyle ise -f Behavioural_4_bit_counter.ut Behavioural_4_bit_counter.ncd 

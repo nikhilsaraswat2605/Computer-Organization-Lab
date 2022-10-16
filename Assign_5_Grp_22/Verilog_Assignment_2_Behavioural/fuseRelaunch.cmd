@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/nikhil/Nikhil/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_TestBench_isim_beh.exe" -prj "/home/nikhil/Nikhil/Assign_2_Verilog/Verilog_Assignment_2_Behavioural/Behavioural_TestBench_beh.prj" "work.Behavioural_TestBench" "work.glbl" 

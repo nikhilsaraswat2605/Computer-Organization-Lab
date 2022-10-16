@@ -1,0 +1,4 @@
+verilog work "DFF.v"
+verilog work "Clock_Divider.v"
+verilog work "Add_by_1.v"
+verilog work "Struct_4_bit_counter.v"

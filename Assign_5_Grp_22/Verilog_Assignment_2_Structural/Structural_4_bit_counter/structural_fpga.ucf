@@ -1,0 +1,6 @@
+net "clk" loc = "p76";
+net "rstn" loc = "p108";
+net "out[0]" loc = "p139";
+net "out[1]" loc = "p140";
+net "out[2]" loc = "p137";
+net "out[3]" loc = "p138";

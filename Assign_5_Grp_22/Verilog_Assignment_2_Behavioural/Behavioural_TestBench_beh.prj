@@ -1,0 +1,4 @@
+verilog work "Clock_Divider.v"
+verilog work "Behavioural_4_bit_counter.v"
+verilog work "Behavioural_TestBench.v"
+verilog work "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

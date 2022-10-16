@@ -1,0 +1,28 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/nikhil/Nikhil/Assign_2_Verilog/Verilog_Assignment_2_Structural/Structural_4_bit_counter/Structural_TestBench_isim_beh.exe -prj /home/nikhil/Nikhil/Assign_2_Verilog/Verilog_Assignment_2_Structural/Structural_4_bit_counter/Structural_TestBench_beh.prj work.Structural_TestBench work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/nikhil/Nikhil/Assign_2_Verilog/Verilog_Assignment_2_Structural/Structural_4_bit_counter/DFF.v" into library work
+Analyzing Verilog file "/home/nikhil/Nikhil/Assign_2_Verilog/Verilog_Assignment_2_Structural/Structural_4_bit_counter/Clock_Divider.v" into library work
+Analyzing Verilog file "/home/nikhil/Nikhil/Assign_2_Verilog/Verilog_Assignment_2_Structural/Structural_4_bit_counter/Add_by_1.v" into library work
+Analyzing Verilog file "/home/nikhil/Nikhil/Assign_2_Verilog/Verilog_Assignment_2_Structural/Structural_4_bit_counter/Struct_4_bit_counter.v" into library work
+Analyzing Verilog file "/home/nikhil/Nikhil/Assign_2_Verilog/Verilog_Assignment_2_Structural/Structural_4_bit_counter/Structural_TestBench.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 82948 KB
+Fuse CPU Usage: 710 ms
+Compiling module Clock_Divider
+Compiling module DFF
+Compiling module Add_by_1
+Compiling module Struct_4_bit_counter
+Compiling module Structural_TestBench
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 6 Verilog Units
+Built simulation executable /home/nikhil/Nikhil/Assign_2_Verilog/Verilog_Assignment_2_Structural/Structural_4_bit_counter/Structural_TestBench_isim_beh.exe
+Fuse Memory Usage: 1167444 KB
+Fuse CPU Usage: 720 ms
+GCC CPU Usage: 270 ms
